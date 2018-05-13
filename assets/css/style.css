@@ -3,7 +3,68 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-    .container {
-        margin: 0 auto;
-        background-image: url("../images/seigaiha.png");
+.navbar {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    padding: 10px 25px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 0 auto;
+    background-image: url("../images/seigaiha.png");
+    border-top: solid 3px #cccccc;
+}
+
+.text-box {
+    width: 960px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.page-title {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #dddddd;
+}
+
+img {
+    width: 270px;
+    float: left;
+    padding: 10px 20px 20px 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+footer {
+    background-color:#666666;
+    border-top: solid 7px #4aaaa5;
+    color: #f1f0f0;
+    margin: 0 auto;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
 }
