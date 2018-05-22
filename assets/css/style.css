@@ -7,23 +7,34 @@ body {
     width: 960px;
     margin: 0px auto;
     padding: 0px;
+    font-size: 18px;
 }
 
 .name {
     background-color: #4aaaa5;
-    padding: 10px 25px;
+    padding: 30px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 5s;
+}
+
+@keyframes slide {
+    0%   {background-color: #ff00ff; left:0px;}
+    50%  {background-color: #ffff00; left:200px;}
+    100% {background-color: #0000ff; left:0px;}
 }
 
 .container {
     margin: 0 auto;
     background-image: url("../images/seigaiha.png");
     border-top: solid 3px #cccccc;
+    padding: 0;
 }
 
 .text-box {
-    width: 960px;
+    max-width: 960px;
     margin: 25px auto;
     background-color: #ffffff;
     border: solid 1px #dddddd;
@@ -34,7 +45,7 @@ body {
 
 .page-title {
     color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     margin-top: 0;
     margin-bottom: 25px;
     padding-bottom: 10px;
@@ -42,7 +53,7 @@ body {
 }
 
 img {
-    width: 270px;
+    max-width: 30%;
     float: left;
     padding: 10px 20px 20px 0;
 }
@@ -51,6 +62,7 @@ img {
     text-align: center;
     padding-top: 30px;
     font-size: 12px;
+    color: #cccccc;
 }
 
 footer {
@@ -58,6 +70,8 @@ footer {
     border-top: solid 7px #4aaaa5;
     color: #f1f0f0;
     margin: 0 auto;
+    margin-top: 150px;
+    padding-bottom: 5px;
 }
 
 a:link {
@@ -68,3 +82,107 @@ a:link {
 a:visited {
     color: #777777;
 }
+
+#box-1 {
+    background-image: url("../images/star-wars-rpg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box-2 {
+    background-image: url("../images/tablet_cat.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box-3 {
+    background-image: url("../images/golden-girls.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box-4 {
+    background-image: url("../images/bark-buddy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box-5 {
+    background-image: url("../images/simpsons-hangman-game-title.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    width: 300px;
+    height: 225px;
+    margin: 20px;
+    padding: 0px;
+    }
+
+.banner {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;        
+    position: relative;
+    top: 160px;
+    margin-right: 0px;
+    padding-top: 5px;
+}
+
+textarea {
+    max-width: 900px;
+    height: 200px;
+}
+
+.faded {
+    color: #dddddd;
+}
+
+@media only screen and (max-width: 990px) {
+
+    .navbar {
+        width: 100%;
+        display: block;
+        margin-left: 15px;
+    }
+
+    .collapse:not(.show) {
+        display: inline-block;
+        height: 75px;
+        padding-top: 5px;
+        padding-left: 100px;
+        margin-bottom: 15px;
+        margin-top: 0;
+        position: absolute;
+        top: -10px;
+    }
+
+    .faded {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .navbar {
+        width: 100%;
+        display: block;
+        font-size: 16px;
+    }
+
+    .name {
+        padding: 5px;
+        margin: 0;
+    }
+    .collapse:not(.show) {
+        display: inline-block;
+        height: 75px;
+        padding-top: 5px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        }
+    }
