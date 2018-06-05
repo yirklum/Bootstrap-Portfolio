@@ -90,7 +90,11 @@ a:visited {
 }
 
 #box-2 {
+<<<<<<< HEAD
     background-image: url("../images/tablet_cat.jpeg");
+=======
+    background-image: url("../images/movie-quiz-screenshot.png");
+>>>>>>> 2e4853f71801f331c3d8545c92ef5d60758e030c
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -185,4 +189,8 @@ textarea {
         margin-bottom: 15px;
         padding-left: 15px;
         }
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 2e4853f71801f331c3d8545c92ef5d60758e030c
