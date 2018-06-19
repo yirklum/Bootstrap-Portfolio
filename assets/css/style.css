@@ -119,6 +119,12 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+#box-7 {
+    background-image: url("../images/rotten-potatoes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .box {
     width: 300px;
     height: 225px;
