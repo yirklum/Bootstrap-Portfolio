@@ -131,6 +131,13 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+#box-9 {
+    background-image: url("../images/burger-app.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .box {
     width: 300px;
     height: 225px;
