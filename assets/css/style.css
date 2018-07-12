@@ -137,6 +137,12 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+#box-10 {
+    background-image: url("../images/barkbook.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box {
     width: 300px;
