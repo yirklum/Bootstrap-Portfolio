@@ -143,6 +143,12 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+#box-11 {
+    background-image: url("../images/dodo-scraper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box {
     width: 300px;
