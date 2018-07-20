@@ -149,6 +149,12 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+#box-12 {
+    background-image: url("../images/koth.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box {
     width: 300px;
