@@ -161,6 +161,13 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+#box-14 {
+    background-image: url("../images/leafy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 .box {
     width: 300px;
